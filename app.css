@@ -76,13 +76,27 @@ image{
 }
 
 .logo{
+    display: flex;
+    align-items: center;
     font-size: 2rem;
     font-weight: 1200;
+    margin-right: 20px;
 }
 
 .search{
     width: 45%;
     height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    height: 30px;
+    padding: 10px;
+}
+
+.search .btn{
+    height: 30px;
 }
 
 .search .btn:hover{
@@ -631,4 +645,19 @@ footer .content{
     }
 
     
+}
+
+@media (max-width: 450px){
+    .search input{ 
+        display: none;
+    }
+
+    .search .bx{
+        background: #c0392b;
+
+    }
+
+    .search .bx:hover{
+        background: #74231b;
+    }
 }
