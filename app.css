@@ -156,6 +156,7 @@ a.book-item:hover{
     width: 100%;
 
 }
+
 .btn i,
 .btn span{
     z-index: 1;
@@ -654,6 +655,7 @@ footer .content{
 
     .search .bx{
         background: #c0392b;
+        border-radius: 10px;
 
     }
 
