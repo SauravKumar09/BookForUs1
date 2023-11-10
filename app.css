@@ -76,13 +76,27 @@ image{
 }
 
 .logo{
+    display: flex;
+    align-items: center;
     font-size: 2rem;
     font-weight: 1200;
+    margin-right: 20px;
 }
 
 .search{
     width: 45%;
     height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    height: 30px;
+    padding: 10px;
+}
+
+.search .btn{
+    height: 30px;
 }
 
 .search .btn:hover{
@@ -142,6 +156,7 @@ a.book-item:hover{
     width: 100%;
 
 }
+
 .btn i,
 .btn span{
     z-index: 1;
@@ -631,4 +646,20 @@ footer .content{
     }
 
     
+}
+
+@media (max-width: 450px){
+    .search input{ 
+        display: none;
+    }
+
+    .search .bx{
+        background: #c0392b;
+        border-radius: 10px;
+
+    }
+
+    .search .bx:hover{
+        background: #74231b;
+    }
 }
